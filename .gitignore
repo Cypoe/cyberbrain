@@ -1,0 +1,58 @@
+# everything in the vault is ignored by default
+/*
+# ... except the .gitignore...
+!/.gitignore
+# ... the dotfiles...
+!/.space/
+!/.obsidian/
+/.obsidian/*
+!/.obsidian/themes/
+!.obsidian/app.json
+!.obsidian/appearance.json
+!.obsidian/templates.json
+!.obsidian/daily-notes.json
+!.obsidian/zk-prefixer.json
+!.obsidian/core-plugins.json
+!.obsidian/community-plugins.json
+# ... and all text files.
+!/Inbox/
+/Inbox/*
+!*Inbox/Inbox.md
+!/Journal/
+/Journal/*
+!/Journal/Journal.md
+!/Areas/
+/Areas/*
+!/Areas/Areas.md
+!/Projects/
+/Projects/*
+!/Projects/Projects.md
+!/Library/
+/Library/*
+!/Library/Library.md
+!/Archive/
+/Archive/*
+!/Archive/Archive.md
+!/Tags/
+/Tags/*
+!/Tags/Tags.md
+!/Meta/
+/Meta/*
+!/Meta/BOOTSTRAP.md
+!/Meta/HEARTBEAT.md
+!/Meta/IDENTITY.md
+!/Meta/MEMORY.md
+!/Meta/Meta.md
+!/Meta/SOUL.md
+!/Meta/USER.md
+!/Assets/
+/Assets/*
+!/Assets/Assets.md
+!/Templates/
+/Templates/*
+!/Templates/Templates.md
+!/Templates/Journal Entries.md
+!/AGENTS.md
+!/Base.Base
+!/README.md
+!/Vault.md
