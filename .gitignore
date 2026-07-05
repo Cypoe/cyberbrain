@@ -2,6 +2,7 @@
 /*
 # ... except the .gitignore...
 !/.gitignore
+!/.github/
 # ... the dotfiles...
 !/.space/
 !/.obsidian/
